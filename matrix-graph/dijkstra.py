@@ -20,7 +20,7 @@ def dijkstra(grid, vertices, source):
 
     distances[source] = 0
 
-    for vertex in range(vertices):
+    for _ in range(vertices):
         # Pick the minimun distance vertex from 
         # the set of vertices not yet visited
 
