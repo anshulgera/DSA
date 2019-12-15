@@ -14,4 +14,4 @@ def prime_factors(n):
         result.append(int(n))
     return result
 
-prime_factors(64)
+print(prime_factors(63))
